@@ -1,0 +1,20 @@
+.marimba {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 600px);
+  grid-gap: 10px;
+  padding: 20px;
+  list-style: none;
+}
+
+.teclas {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+ }
+
+ @media screen and (max-width: 600px) {
+    .marimba {
+       grid-template-columns: 1fr;
+    }
+ }
