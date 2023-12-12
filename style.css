@@ -8,13 +8,56 @@
 }
 
 .teclas {
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
- }
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
 
- @media screen and (max-width: 600px) {
-    .marimba {
-       grid-template-columns: 1fr;
-    }
- }
+@media screen and (max-width: 600px) {
+  .marimba {
+    grid-template-columns: 1fr;
+  }
+}
+.primera-fila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+.platillos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #bfbfbf;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.platillos:hover {
+  transform: scale(1.1);
+}
+
+#platillo1 {
+  background-color: #ffd700;
+}
+
+#platillo2 {
+  background-color: #c0c0c0;
+}
+
+#platillo3 {
+  background-color: #808080;
+}
+
+#platillo4 {
+  background-color: #a9a9a9;
+}
+
+#platillo5 {
+  background-color: #d3d3d3;
+}
