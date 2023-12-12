@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(90deg, rgba(75, 75, 75, 0.52) -0.65%, #4B4B4B 99.63%);
+    margin: 0;
+    padding: 0;
+    font-family: Koulen;
+    align-items: center;
+}
+
+.choose-instrument {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3.125rem;
+    background: rgba(0, 0, 0, 0.59);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 120%;
+    /* width: 300px; */
+}
+
+.project-title-red {
+    color: #911E1E;
+    padding-left: 10%;
+}
+h2 {
+    margin: 0;
+    color: #911E1E;
+    font-size: 2rem;
+    margin: 2% 3% 0 3%;
+    text-align: center;
+}
+span {
+    color: white;
+}
+p {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.instruments {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0 2% 0;
+    justify-content: center;
+    gap: 10%;
+    flex-flow: column-wrap;
+}
+.instrument {
+    border-radius: 1.625rem;
+    background: #4B4B4B;
+    padding: 20%;
+    cursor: pointer;
+}
+button {
+    border-radius: 1.5rem;
+    background: #911E1E;
+    font-family: Koulen;
+    /* top right bottom left: */
+    padding: 1% 10% 1% 10%;
+    border: 0;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .instruments {
+        width: 30%;
+    }
+    .choose-instrument {
+        height: auto;
+        gap: 105%;
+    }
+    button {
+        margin-bottom: 5%;
+    }
+    .instrument {
+        padding: 10%;
+    }
+}
