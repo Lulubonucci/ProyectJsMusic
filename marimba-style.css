@@ -3,7 +3,7 @@
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(1, 600px);
   grid-gap: 10px;
-  padding: 500px;
+  padding: 0 500px;
   list-style: none;
 
 
@@ -29,40 +29,40 @@
 
 #c {
   background-color: #CB3431;
-  height: 1000px;
+  height: 700px;
 }
 
 #d {
   background-color: #DB8700;
-  height: 900px;
+  height: 650px;
   margin-top: 35%;
   ;
 }
 
 #e {
   background-color: #DCA800;
-  height: 800px;
+  height: 600px;
   margin-top: 45%;
   line-height: 1;
 }
 
 #f {
   background-color: #489A4B;
-  height: 700px;
+  height: 550px;
   margin-top: 55%;
   line-height: 1;
 }
 
 #g {
   background-color: #00857A;
-  height: 600px;
+  height: 500px;
   margin-top: 65%;
   line-height: 1
 }
 
 #a {
   background-color: #0094D2;
-  height: 500px;
+  height: 450px;
   margin-top: 75%;
   line-height: 1;
 }
@@ -76,21 +76,21 @@
 
 #c-2 {
   background-color: #CB3431;
-  height: 300px;
+  height: 350px;
   margin-top: 95%;
   line-height: 1;
 }
 
 #d-2 {
   background-color: #DB8700;
-  height: 200px;
+  height: 300px;
   margin-top: 105%;
   line-height: 1;
 }
 
 #e-2 {
   background-color: #DCA800;
-  height: 100px;
+  height: 250px;
   margin-top: 125%;
   line-height: 0.4;
 }
