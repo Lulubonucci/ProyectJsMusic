@@ -1,3 +1,20 @@
+const teclas = document.querySelectorAll(".teclas");
+// console.log(teclas)
+function reproducirSonido(tecla) {
+  let audio = new Audio();
+  audio.src =
+    `sonidos-marimba/${tecla.toUpperCase()}.wav` ||
+    `sonidos-marimba/${tecla.toUpperCase()}-2.wav`;
+  audio.play();
+  const clickedKey = document.getElementById(tecla);
+  console.log(clickedKey);
+}
+
+teclas.forEach((tecla) => {
+  tecla.addEventListener("click", () => reproducirSonido(tecla.id));
+  console.log("tecla " + tecla.id);
+});
+
 // let teclaC = document.getElementById("c")
 // function reproducirTeclaC() {
 //     let audio = new Audio
@@ -59,20 +76,3 @@
 //         reproducirTeclaG()
 //     }
 // })
-
-const teclas = document.querySelectorAll(".teclas");
-// console.log(teclas)
-function reproducirSonido(tecla) {
-  let audio = new Audio();
-  audio.src =
-    `sonidos-marimba/${tecla.toUpperCase()}.wav` ||
-    `sonidos-marimba/${tecla.toUpperCase()}-2.wav`;
-  audio.play();
-  const clickedKey = document.getElementById(tecla);
-  console.log(clickedKey);
-}
-
-teclas.forEach((tecla) => {
-  tecla.addEventListener("click", () => reproducirSonido(tecla.id));
-  console.log("tecla " + tecla.id);
-});
