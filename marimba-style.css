@@ -8,32 +8,89 @@
 
 
 }
- @media screen and (max-width: 600px) {
-    .marimba {
-       grid-template-columns: 1fr;
-    }
- }
 
- .teclas {
-   display: inline-block;
-   padding: 19px;
-   margin: 1px;
-   border: 1px solid #0c0c0c;
-   cursor: pointer;
-   border-radius: 12px;
-   font-size: 50px; 
-   order: 10;
-   
- }
- 
- #c { background-color: #CB3431; height: 1000px;}
- #d { background-color: #DB8700; height: 900px; margin-top: 35%;; }
- #e { background-color: #DCA800; height: 800px; margin-top: 45%;line-height: 1;}
- #f { background-color: #489A4B; height: 700px; margin-top: 55%;line-height: 1;}
- #g { background-color: #00857A; height: 600px; margin-top: 65%;line-height: 1}
- #a { background-color: #0094D2; height: 500px; margin-top: 75%;line-height: 1;}
- #b { background-color: #5F3AA1; height: 400px;margin-top: 85%;line-height: 1;}
- #c-2 { background-color: #CB3431; height: 300px; margin-top: 95%;line-height: 1;}
- #d-2 { background-color: #DB8700;height: 200px; margin-top: 105%; line-height: 1;}
- #e-2 { background-color: #DCA800; height: 100px; margin-top: 125%; line-height: 0.4;} 
- 
+@media screen and (max-width: 600px) {
+  .marimba {
+    grid-template-columns: 1fr;
+  }
+}
+
+.teclas {
+  display: inline-block;
+  padding: 19px;
+  margin: 1px;
+  border: 1px solid #0c0c0c;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 50px;
+  order: 10;
+
+}
+
+#c {
+  background-color: #CB3431;
+  height: 1000px;
+}
+
+#d {
+  background-color: #DB8700;
+  height: 900px;
+  margin-top: 35%;
+  ;
+}
+
+#e {
+  background-color: #DCA800;
+  height: 800px;
+  margin-top: 45%;
+  line-height: 1;
+}
+
+#f {
+  background-color: #489A4B;
+  height: 700px;
+  margin-top: 55%;
+  line-height: 1;
+}
+
+#g {
+  background-color: #00857A;
+  height: 600px;
+  margin-top: 65%;
+  line-height: 1
+}
+
+#a {
+  background-color: #0094D2;
+  height: 500px;
+  margin-top: 75%;
+  line-height: 1;
+}
+
+#b {
+  background-color: #5F3AA1;
+  height: 400px;
+  margin-top: 85%;
+  line-height: 1;
+}
+
+#c-2 {
+  background-color: #CB3431;
+  height: 300px;
+  margin-top: 95%;
+  line-height: 1;
+}
+
+#d-2 {
+  background-color: #DB8700;
+  height: 200px;
+  margin-top: 105%;
+  line-height: 1;
+}
+
+#e-2 {
+  background-color: #DCA800;
+  height: 100px;
+  margin-top: 125%;
+  line-height: 0.4;
+}
