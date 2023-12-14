@@ -1,4 +1,4 @@
-let platillos = document.querySelectorAll(".platillos")
+let platillos = document.querySelectorAll(".bateria")
 console.log(platillos)
 
 function reproducirSonido(platillo){
